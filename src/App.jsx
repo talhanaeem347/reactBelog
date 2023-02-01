@@ -32,12 +32,16 @@
 // }
 
 // export default App
+import Home from './components/Home';
+import NavBar from './components/NavBar';
 function App() {
   let data  = "Hello app this is from data variable";
   return (
     <div className="App">
-      <h1>React App</h1>
-      <p>{data}</p>
+      <div className='h-12'>
+        <NavBar />
+      </div>
+      <Home />
     </div>
   );
 }
