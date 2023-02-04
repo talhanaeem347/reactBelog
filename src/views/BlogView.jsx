@@ -35,7 +35,7 @@ const BlogView = () => {
                 }
 
                 {
-                    show && <FullBlog blog={blog} />
+                    show && <FullBlog blog={blog}    />
                 }
             </div>
         </div>
